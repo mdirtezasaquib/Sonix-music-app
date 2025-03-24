@@ -12,17 +12,20 @@
 <body class="bg-gray-800 text-white transition duration-300" id="theme">
     
     
-   <nav class="flex justify-between items-center p-4 bg-gray-950">
-        <div class="flex items-center">
-            <button class="lg:hidden text-white text-2xl" onclick="toggleSidebar()">☰</button>
-            <h1 class="text-xl font-bold text-pink-500 ml-2">🎵 Sonix</h1>
-        </div>
-        <div>
-            <button onclick="toggleDarkMode()" class="bg-gray-700 px-4 py-2 rounded-lg">🌙</button>
-            <button class="bg-pink-500 px-4 py-2 rounded-lg ml-2">Login</button>
-            <button class="border border-white px-4 py-2 rounded-lg">Sign Up</button>
-        </div>
-    </nav>
+  <nav class="flex justify-between items-center p-4 bg-gray-950">
+    <div class="flex items-center">
+        <!-- Mobile Menu Button -->
+        <button class="lg:hidden text-white text-2xl" onclick="toggleSidebar()">☰</button>
+        <h1 class="text-xl font-bold text-pink-500 ml-2">🎵 Sonix</h1>
+    </div>
+
+    <!-- Buttons -->
+    <div class="hidden sm:flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-2">
+        <button onclick="toggleDarkMode()" class="bg-gray-700 px-4 py-2 rounded-lg">🌙</button>
+        <button class="bg-pink-500 px-4 py-2 rounded-lg">Login</button>
+        <button class="border border-white px-4 py-2 rounded-lg">Sign Up</button>
+    </div>
+</nav>
 
     
     <div class="flex bg-gray-600">
