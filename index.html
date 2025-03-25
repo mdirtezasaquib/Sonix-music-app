@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonix-apna</title>
     <link rel="stylesheet" href="output.css">
-
-   
 </head>
 
-<body class="bg-gray-800 text-white transition duration-300" id="theme">
+<body class="bg-gray-800 text-white transition duration-300 dark-mode" id="theme">
     
-    
- <nav class="flex justify-between items-center p-4 bg-gray-950">
+
+    <nav class="flex justify-between items-center p-4 bg-gray-950">
         <div class="flex items-center">
             
             <button class="lg:hidden text-white text-2xl" onclick="toggleSidebar()">☰</button>
@@ -27,19 +25,16 @@
         
     </nav>
     
-
-
-
     
     <div class="flex bg-gray-600">
     
         <aside id="sidebar" class="w-[250px] p-4 bg-gray-800 min-h-screen hidden lg:block">
             <div class="relative">
-                <input type="text" placeholder="Search..." class="w-full p-2 rounded-lg bg-gray-700 text-white">
+                <input type="text" id="input" placeholder="Search..." class="w-full p-2 rounded-lg bg-gray-700 text-white">
             </div>
             <div class="mt-4">
-                <h2 class="text-lg font-semibold">Create Playlist +</h2>
-                <p class="mt-2 text-pink-400">❤ Favorites</p>
+                <h2 class="text-lg font-semibold cursor-pointer">Create Playlist +</h2>
+                <p class="mt-2 text-pink-400 cursor-pointer">❤ Favorites</p>
             </div>
         </aside>
         
@@ -50,7 +45,6 @@
                 </div>
             </main>
             
-
 
   </div>
     
